@@ -11,6 +11,8 @@
 		574446762A8CCA94005C6372 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574446752A8CCA94005C6372 /* ContentView.swift */; };
 		574446782A8CCA97005C6372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 574446772A8CCA97005C6372 /* Assets.xcassets */; };
 		5744467C2A8CCA97005C6372 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5744467B2A8CCA97005C6372 /* Preview Assets.xcassets */; };
+		574446832A8CCB00005C6372 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574446822A8CCB00005C6372 /* Home.swift */; };
+		574446862A8CCB1A005C6372 /* TripCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574446852A8CCB1A005C6372 /* TripCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		574446772A8CCA97005C6372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		574446792A8CCA97005C6372 /* Parallax.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Parallax.entitlements; sourceTree = "<group>"; };
 		5744467B2A8CCA97005C6372 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		574446822A8CCB00005C6372 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		574446852A8CCB1A005C6372 /* TripCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 		574446722A8CCA94005C6372 /* Parallax */ = {
 			isa = PBXGroup;
 			children = (
+				574446872A8CCB1F005C6372 /* Models */,
+				574446842A8CCB0A005C6372 /* Views */,
 				574446732A8CCA94005C6372 /* ParallaxApp.swift */,
 				574446752A8CCA94005C6372 /* ContentView.swift */,
 				574446772A8CCA97005C6372 /* Assets.xcassets */,
@@ -67,6 +73,22 @@
 				5744467B2A8CCA97005C6372 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		574446842A8CCB0A005C6372 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				574446822A8CCB00005C6372 /* Home.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		574446872A8CCB1F005C6372 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				574446852A8CCB1A005C6372 /* TripCard.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +162,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				574446762A8CCA94005C6372 /* ContentView.swift in Sources */,
+				574446832A8CCB00005C6372 /* Home.swift in Sources */,
+				574446862A8CCB1A005C6372 /* TripCard.swift in Sources */,
 				574446742A8CCA94005C6372 /* ParallaxApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
